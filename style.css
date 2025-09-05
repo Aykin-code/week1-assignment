@@ -1,6 +1,9 @@
+* {
+  scroll-behavior: smooth;
+}
 
 body {
-    margin: 0px;
+  margin: 0px;
 }
 
 /* HEADER AND NAVIGATION BAR */
@@ -8,8 +11,9 @@ header {
   position: fixed;
   color: white;
   padding: 2%;
-  background-color:brown;
-  width: 100%; z-index: 1;
+  background-color: brown;
+  width: 100%;
+  z-index: 1;
 
   display: flex;
   flex-wrap: wrap;
@@ -38,41 +42,38 @@ nav a:hover {
   text-decoration: underline;
 }
 
-
 /* BACKGROUND IMAGS and related styling*/
 .feature {
-    height: 100vh;
-    background-size: cover;
-    position: relative;
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
 
 .topimage {
-    background-image: url('./images/potatoe1.jpg');
+  background-image: url("./images/potatoe1.jpg");
 }
 
 .middleimage {
-    background-image: url('./images/potatoe2.jpg');
+  background-image: url("./images/potatoe2.jpg");
 }
 
 .bottomimage {
-    background-image: url('./images/potatoe3.jpg');
+  background-image: url("./images/potatoe3.jpg");
 }
 
 img {
-    height: 200px;
-    width: auto;
+  height: 200px;
+  width: auto;
 }
-
 
 /* CALL TO ACTION BOXES and related styling */
 .cta-box {
-    
-    background-color: green;
-    position: absolute;
-    bottom: 225px;
-    left: 125px;
-    color: white;
-    padding: 15px;
+  background-color: green;
+  position: absolute;
+  bottom: 225px;
+  left: 125px;
+  color: white;
+  padding: 15px;
 }
 
 .cta-meta-heading {
@@ -87,15 +88,9 @@ img {
 }
 
 .buttonright {
-    display: flex;
-    flex-wrap: right;
+  display: flex;
+  flex-wrap: right;
 }
-
-
-
-
-
-
 
 footer {
   background: brown;
@@ -103,6 +98,3 @@ footer {
   color: white;
   padding: 20px;
 }
-
-
-
