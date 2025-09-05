@@ -6,7 +6,7 @@ body {
 /* HEADER AND NAVIGATION BAR */
 header {
   position: fixed;
-  color: #fff;
+  color: white;
   padding: 2%;
   background-color:brown;
   width: 100%; z-index: 1;
@@ -63,6 +63,8 @@ img {
     width: auto;
 }
 
+
+/* CALL TO ACTION BOXES and related styling */
 .cta-box {
     
     background-color: green;
@@ -70,4 +72,37 @@ img {
     bottom: 225px;
     left: 125px;
     color: white;
+    padding: 15px;
 }
+
+.cta-meta-heading {
+  font-size: 50px;
+  text-transform: uppercase;
+}
+.cta-meta-tagline {
+  /* text-transform: uppercase; */
+  font-weight: 100;
+  opacity: 1;
+  font-size: 30px;
+}
+
+.buttonright {
+    display: flex;
+    flex-wrap: right;
+}
+
+
+
+
+
+
+
+footer {
+  background: brown;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+
+
