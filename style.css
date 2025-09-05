@@ -9,13 +9,35 @@ header {
   color: #fff;
   padding: 2%;
   background-color:brown;
-  width: 100%;
-  z-index: 1;
+  width: 100%; z-index: 1;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 10px;
 }
+header a {
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 
 /* BACKGROUND IMAGS and related styling*/
 .feature {
@@ -42,6 +64,8 @@ img {
 }
 
 .cta-box {
+    
+    background-color: green;
     position: absolute;
     bottom: 225px;
     left: 125px;
