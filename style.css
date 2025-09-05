@@ -16,7 +16,7 @@ header {
   z-index: 1;
 
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   gap: 10px;
 }
@@ -26,13 +26,15 @@ header a {
 
 nav {
   display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
+  /* flex-wrap: column; */
+  /* justify-content: flex-end; */
+  width: 80%;
+  gap: 20px;
   text-transform: uppercase;
   align-items: center;
 }
 
-nav a {
+/* nav a {
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 700;
@@ -40,7 +42,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-}
+} */
 
 /* BACKGROUND IMAGS and related styling*/
 .feature {
